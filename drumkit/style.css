@@ -1,0 +1,47 @@
+.hi {
+  font-size: large;
+  color: teal;
+}
+.keys {
+  min-height: 100vh;
+  min-width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-image: url("./star.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.key kbd {
+  font-size: 50px;
+  text-align: center;
+  display: block;
+}
+.key {
+
+  border: 2px solid black;
+  border-radius: 5px;
+  text-wrap: wrap;
+  text-align: center;
+  transition: all 0.07s;
+  margin: 1rem;
+  width: 60px;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+.playing{
+transform: scale(1.1);
+border-color: yellow;
+box-shadow: 0 0 10px #ffc600;
+
+
+}
+.sound{
+  font-size: 1rem;
+  
+  letter-spacing: 1px;
+  color:#ffc600;
+}
